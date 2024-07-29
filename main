@@ -5,6 +5,9 @@ repeat wait() until game.Players.LocalPlayer.PlayerGui.MenuGui.GamesPageFrame
 
 task.wait(2)
 
+warn("RetroAddons Loaded (2s)")
+warn("You can find information in the Retro Dev discord in #general-forum. The post should be there.")
+
 local Categories = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local BackgroundStandardGradient = Instance.new("UIGradient")
