@@ -1,0 +1,1107 @@
+-- RetroAddons, Created by Rixxles 2024
+-- Instances:
+
+local Categories = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local BackgroundStandardGradient = Instance.new("UIGradient")
+local ListBackground = Instance.new("Frame")
+local BackgroundStandardGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Header = Instance.new("TextLabel")
+local UIPadding = Instance.new("UIPadding")
+local List = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local _2015 = Instance.new("TextButton")
+local ThemeButtonGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Check = Instance.new("TextButton")
+local ThemeButtonGradient_2 = Instance.new("UIGradient")
+local Main = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local CheckImage = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local _20142013 = Instance.new("TextButton")
+local ThemeButtonGradient_3 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local Check_2 = Instance.new("TextButton")
+local ThemeButtonGradient_4 = Instance.new("UIGradient")
+local Main_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_2 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local _20122011 = Instance.new("TextButton")
+local ThemeButtonGradient_5 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local Check_3 = Instance.new("TextButton")
+local ThemeButtonGradient_6 = Instance.new("UIGradient")
+local Main_3 = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_3 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local _20102009 = Instance.new("TextButton")
+local ThemeButtonGradient_7 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local Check_4 = Instance.new("TextButton")
+local ThemeButtonGradient_8 = Instance.new("UIGradient")
+local Main_4 = Instance.new("Frame")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_4 = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Hangout = Instance.new("TextButton")
+local ThemeButtonGradient_9 = Instance.new("UIGradient")
+local TextLabel_7 = Instance.new("TextLabel")
+local Check_5 = Instance.new("TextButton")
+local ThemeButtonGradient_10 = Instance.new("UIGradient")
+local Main_5 = Instance.new("Frame")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_5 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Owner = Instance.new("TextButton")
+local ThemeButtonGradient_11 = Instance.new("UIGradient")
+local TextLabel_8 = Instance.new("TextLabel")
+local Check_6 = Instance.new("TextButton")
+local ThemeButtonGradient_12 = Instance.new("UIGradient")
+local Main_6 = Instance.new("Frame")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_6 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local ThemeButtonGradient_13 = Instance.new("UIGradient")
+local TextLabel_9 = Instance.new("TextLabel")
+local Check_7 = Instance.new("TextButton")
+local ThemeButtonGradient_14 = Instance.new("UIGradient")
+local Main_7 = Instance.new("Frame")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_7 = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local JoinFromIDBox = Instance.new("Frame")
+local ThemeStandardTextboxGradient = Instance.new("UIGradient")
+local TextBox = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local JoinFromIDButton = Instance.new("TextButton")
+local ThemeButtonGradient_15 = Instance.new("UIGradient")
+local Main_8 = Instance.new("Frame")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local Simon = Instance.new("TextButton")
+local ThemeButtonGradient_16 = Instance.new("UIGradient")
+local TextLabel_11 = Instance.new("TextLabel")
+local Check_8 = Instance.new("TextButton")
+local ThemeButtonGradient_17 = Instance.new("UIGradient")
+local Main_9 = Instance.new("Frame")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local CheckImage_8 = Instance.new("ImageLabel")
+local UICorner_10 = Instance.new("UICorner")
+local gamesPageFrame = game.Players.LocalPlayer.PlayerGui.MenuGui.GamesPageFrame
+
+
+--Properties:
+
+Categories.Name = "Categories"
+Categories.AnchorPoint = Vector2.new(0, 0.5)
+Categories.BackgroundColor3 = Color3.fromRGB(128, 128, 128)
+Categories.BackgroundTransparency = 0.250
+Categories.BorderColor3 = Color3.fromRGB(27, 27, 53)
+Categories.BorderSizePixel = 0
+Categories.LayoutOrder = 3
+Categories.Position = UDim2.new(-0.0700000003, 0, 0.5, 0)
+Categories.Size = UDim2.new(0.200000003, 0, 0.790000021, 0)
+Categories.ZIndex = 1
+Categories.Parent = gamesPageFrame
+
+gamesPageFrame.List.Position = UDim2.new(0.6, 0, 0.5, 0)
+gamesPageFrame.ListBackground.Position = UDim2.new(0.6, 0, 0.5, 0)
+gamesPageFrame.Sort.Position = UDim2.new(0.49, 0, 0, 0)
+gamesPageFrame.Sort.Size = UDim2.new(1.125, 0, 0.09, 0)
+gamesPageFrame.LoadingPage.Position = UDim2.new(0.6, 0, 0.5, 0)
+gamesPageFrame.PageButtons.Position = UDim2.new(0.03, 0, 1, 0)
+gamesPageFrame.PageButtons.Size = UDim2.new(0.2, 0, 0.09, 0)
+
+UICorner.Parent = Categories
+
+BackgroundStandardGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(27, 27, 53))}
+BackgroundStandardGradient.Rotation = 90
+BackgroundStandardGradient.Name = "BackgroundStandardGradient"
+BackgroundStandardGradient.Parent = Categories
+
+ListBackground.Name = "ListBackground"
+ListBackground.Parent = Categories
+ListBackground.AnchorPoint = Vector2.new(0.5, 1)
+ListBackground.BackgroundColor3 = Color3.fromRGB(128, 128, 128)
+ListBackground.BackgroundTransparency = 0.250
+ListBackground.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ListBackground.BorderSizePixel = 0
+ListBackground.Position = UDim2.new(0.5, 0, 0.975000024, 0)
+ListBackground.Size = UDim2.new(0.925000012, 0, 0.870000005, 0)
+
+BackgroundStandardGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(27, 27, 53))}
+BackgroundStandardGradient_2.Rotation = 90
+BackgroundStandardGradient_2.Name = "BackgroundStandardGradient"
+BackgroundStandardGradient_2.Parent = ListBackground
+
+UICorner_2.Parent = ListBackground
+
+Header.Name = "Header"
+Header.Parent = Categories
+Header.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Header.BackgroundTransparency = 1.000
+Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Header.BorderSizePixel = 0
+Header.Size = UDim2.new(1, 0, 0.100000001, 0)
+Header.Font = Enum.Font.GothamBold
+Header.Text = "Sort"
+Header.TextColor3 = Color3.fromRGB(255, 255, 255)
+Header.TextScaled = true
+Header.TextSize = 14.000
+Header.TextWrapped = true
+
+UIPadding.Parent = Header
+UIPadding.PaddingBottom = UDim.new(0.200000003, 0)
+UIPadding.PaddingTop = UDim.new(0.200000003, 0)
+
+List.Name = "List"
+List.Parent = Categories
+List.AnchorPoint = Vector2.new(0.5, 1)
+List.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+List.BackgroundTransparency = 1.000
+List.BorderColor3 = Color3.fromRGB(27, 42, 53)
+List.BorderSizePixel = 0
+List.Position = UDim2.new(0.512499988, 0, 0.975000024, 0)
+List.Selectable = false
+List.Size = UDim2.new(0.875, 0, 0.860000014, 0)
+List.BottomImage = "rbxassetid://7158513254"
+List.MidImage = "rbxassetid://7158488033"
+List.TopImage = "rbxassetid://7158508386"
+
+UIListLayout.Parent = List
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+_2015.Name = "2015"
+_2015.Parent = List
+_2015.AnchorPoint = Vector2.new(0.5, 0)
+_2015.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2015.BackgroundTransparency = 1.000
+_2015.BorderColor3 = Color3.fromRGB(28, 28, 28)
+_2015.BorderSizePixel = 0
+_2015.LayoutOrder = 1
+_2015.Position = UDim2.new(0.5, 0, 0, 0)
+_2015.Size = UDim2.new(1, 0, 0, 40)
+_2015.ZIndex = 2
+_2015.Font = Enum.Font.Arial
+_2015.Text = ""
+_2015.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2015.TextSize = 17.000
+_2015.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient.Rotation = 90
+ThemeButtonGradient.Name = "ThemeButtonGradient"
+ThemeButtonGradient.Parent = _2015
+
+TextLabel.Parent = _2015
+TextLabel.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel.Size = UDim2.new(1, -65, 1, 0)
+TextLabel.ZIndex = 0
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Early & Mid 2015"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+Check.Name = "Check"
+Check.Parent = _2015
+Check.AnchorPoint = Vector2.new(0, 0.5)
+Check.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check.BorderSizePixel = 0
+Check.LayoutOrder = 2
+Check.Position = UDim2.new(0, 0, 0.5, 0)
+Check.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check.Font = Enum.Font.Arial
+Check.Text = ""
+Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check.TextSize = 17.000
+Check.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_2.Rotation = 90
+ThemeButtonGradient_2.Name = "ThemeButtonGradient"
+ThemeButtonGradient_2.Parent = Check
+
+Main.Name = "Main"
+Main.Parent = Check
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint.Parent = Check
+
+CheckImage.Name = "CheckImage"
+CheckImage.Parent = Check
+CheckImage.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage.BackgroundTransparency = 1.000
+CheckImage.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage.BorderSizePixel = 0
+CheckImage.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage.ZIndex = 0
+CheckImage.Image = "rbxassetid://5226924982"
+CheckImage.ScaleType = Enum.ScaleType.Crop
+
+UICorner_3.Parent = Check
+
+TextLabel_2.Parent = List
+TextLabel_2.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_2.Size = UDim2.new(1, -65, 0, 30)
+TextLabel_2.ZIndex = 0
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Sort by Date"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+_20142013.Name = "2014-2013"
+_20142013.Parent = List
+_20142013.AnchorPoint = Vector2.new(0.5, 0)
+_20142013.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_20142013.BackgroundTransparency = 1.000
+_20142013.BorderColor3 = Color3.fromRGB(28, 28, 28)
+_20142013.BorderSizePixel = 0
+_20142013.LayoutOrder = 2
+_20142013.Position = UDim2.new(0.5, 0, 0, 0)
+_20142013.Size = UDim2.new(1, 0, 0, 40)
+_20142013.ZIndex = 2
+_20142013.Font = Enum.Font.Arial
+_20142013.Text = ""
+_20142013.TextColor3 = Color3.fromRGB(255, 255, 255)
+_20142013.TextSize = 17.000
+_20142013.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_3.Rotation = 90
+ThemeButtonGradient_3.Name = "ThemeButtonGradient"
+ThemeButtonGradient_3.Parent = _20142013
+
+TextLabel_3.Parent = _20142013
+TextLabel_3.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_3.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_3.ZIndex = 0
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Late 2014 - Early 2013"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_2.Name = "Check"
+Check_2.Parent = _20142013
+Check_2.AnchorPoint = Vector2.new(0, 0.5)
+Check_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_2.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_2.BorderSizePixel = 0
+Check_2.LayoutOrder = 2
+Check_2.Position = UDim2.new(0, 0, 0.5, 0)
+Check_2.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_2.Font = Enum.Font.Arial
+Check_2.Text = ""
+Check_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_2.TextSize = 17.000
+Check_2.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_4.Rotation = 90
+ThemeButtonGradient_4.Name = "ThemeButtonGradient"
+ThemeButtonGradient_4.Parent = Check_2
+
+Main_2.Name = "Main"
+Main_2.Parent = Check_2
+Main_2.BackgroundTransparency = 1.000
+Main_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_2.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_2.Parent = Check_2
+
+CheckImage_2.Name = "CheckImage"
+CheckImage_2.Parent = Check_2
+CheckImage_2.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_2.BackgroundTransparency = 1.000
+CheckImage_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_2.BorderSizePixel = 0
+CheckImage_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_2.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_2.ZIndex = 0
+CheckImage_2.Image = "rbxassetid://5226924982"
+CheckImage_2.ScaleType = Enum.ScaleType.Crop
+
+UICorner_4.Parent = Check_2
+
+_20122011.Name = "2012-2011"
+_20122011.Parent = List
+_20122011.AnchorPoint = Vector2.new(0.5, 0)
+_20122011.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_20122011.BackgroundTransparency = 1.000
+_20122011.BorderColor3 = Color3.fromRGB(28, 28, 28)
+_20122011.BorderSizePixel = 0
+_20122011.LayoutOrder = 3
+_20122011.Position = UDim2.new(0.5, 0, 0, 0)
+_20122011.Size = UDim2.new(1, 0, 0, 40)
+_20122011.ZIndex = 2
+_20122011.Font = Enum.Font.Arial
+_20122011.Text = ""
+_20122011.TextColor3 = Color3.fromRGB(255, 255, 255)
+_20122011.TextSize = 17.000
+_20122011.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_5.Rotation = 90
+ThemeButtonGradient_5.Name = "ThemeButtonGradient"
+ThemeButtonGradient_5.Parent = _20122011
+
+TextLabel_4.Parent = _20122011
+TextLabel_4.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_4.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_4.ZIndex = 0
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Late 2012 - Early 2011"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_3.Name = "Check"
+Check_3.Parent = _20122011
+Check_3.AnchorPoint = Vector2.new(0, 0.5)
+Check_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_3.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_3.BorderSizePixel = 0
+Check_3.LayoutOrder = 2
+Check_3.Position = UDim2.new(0, 0, 0.5, 0)
+Check_3.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_3.Font = Enum.Font.Arial
+Check_3.Text = ""
+Check_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_3.TextSize = 17.000
+Check_3.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_6.Rotation = 90
+ThemeButtonGradient_6.Name = "ThemeButtonGradient"
+ThemeButtonGradient_6.Parent = Check_3
+
+Main_3.Name = "Main"
+Main_3.Parent = Check_3
+Main_3.BackgroundTransparency = 1.000
+Main_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_3.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_3.Parent = Check_3
+
+CheckImage_3.Name = "CheckImage"
+CheckImage_3.Parent = Check_3
+CheckImage_3.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_3.BackgroundTransparency = 1.000
+CheckImage_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_3.BorderSizePixel = 0
+CheckImage_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_3.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_3.ZIndex = 0
+CheckImage_3.Image = "rbxassetid://5226924982"
+CheckImage_3.ScaleType = Enum.ScaleType.Crop
+
+UICorner_5.Parent = Check_3
+
+_20102009.Name = "2010-2009"
+_20102009.Parent = List
+_20102009.AnchorPoint = Vector2.new(0.5, 0)
+_20102009.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_20102009.BackgroundTransparency = 1.000
+_20102009.BorderColor3 = Color3.fromRGB(28, 28, 28)
+_20102009.BorderSizePixel = 0
+_20102009.LayoutOrder = 4
+_20102009.Position = UDim2.new(0.5, 0, 0, 0)
+_20102009.Size = UDim2.new(1, 0, 0, 40)
+_20102009.ZIndex = 2
+_20102009.Font = Enum.Font.Arial
+_20102009.Text = ""
+_20102009.TextColor3 = Color3.fromRGB(255, 255, 255)
+_20102009.TextSize = 17.000
+_20102009.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_7.Rotation = 90
+ThemeButtonGradient_7.Name = "ThemeButtonGradient"
+ThemeButtonGradient_7.Parent = _20102009
+
+TextLabel_5.Parent = _20102009
+TextLabel_5.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_5.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_5.ZIndex = 0
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Late 2010 - Early 2009"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_4.Name = "Check"
+Check_4.Parent = _20102009
+Check_4.AnchorPoint = Vector2.new(0, 0.5)
+Check_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_4.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_4.BorderSizePixel = 0
+Check_4.LayoutOrder = 2
+Check_4.Position = UDim2.new(0, 0, 0.5, 0)
+Check_4.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_4.Font = Enum.Font.Arial
+Check_4.Text = ""
+Check_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_4.TextSize = 17.000
+Check_4.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_8.Rotation = 90
+ThemeButtonGradient_8.Name = "ThemeButtonGradient"
+ThemeButtonGradient_8.Parent = Check_4
+
+Main_4.Name = "Main"
+Main_4.Parent = Check_4
+Main_4.BackgroundTransparency = 1.000
+Main_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_4.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_4.Parent = Check_4
+
+CheckImage_4.Name = "CheckImage"
+CheckImage_4.Parent = Check_4
+CheckImage_4.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_4.BackgroundTransparency = 1.000
+CheckImage_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_4.BorderSizePixel = 0
+CheckImage_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_4.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_4.ZIndex = 0
+CheckImage_4.Image = "rbxassetid://5226924982"
+CheckImage_4.ScaleType = Enum.ScaleType.Crop
+
+UICorner_6.Parent = Check_4
+
+TextLabel_6.Parent = List
+TextLabel_6.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.LayoutOrder = 5
+TextLabel_6.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_6.Size = UDim2.new(1, -65, 0, 30)
+TextLabel_6.ZIndex = 0
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Sort by Keywords"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Hangout.Name = "Hangout"
+Hangout.Parent = List
+Hangout.AnchorPoint = Vector2.new(0.5, 0)
+Hangout.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hangout.BackgroundTransparency = 1.000
+Hangout.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Hangout.BorderSizePixel = 0
+Hangout.LayoutOrder = 6
+Hangout.Position = UDim2.new(0.5, 0, 0, 0)
+Hangout.Size = UDim2.new(1, 0, 0, 40)
+Hangout.ZIndex = 2
+Hangout.Font = Enum.Font.Arial
+Hangout.Text = ""
+Hangout.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hangout.TextSize = 17.000
+Hangout.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_9.Rotation = 90
+ThemeButtonGradient_9.Name = "ThemeButtonGradient"
+ThemeButtonGradient_9.Parent = Hangout
+
+TextLabel_7.Parent = Hangout
+TextLabel_7.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_7.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_7.ZIndex = 0
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Hangout"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_5.Name = "Check"
+Check_5.Parent = Hangout
+Check_5.AnchorPoint = Vector2.new(0, 0.5)
+Check_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_5.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_5.BorderSizePixel = 0
+Check_5.LayoutOrder = 2
+Check_5.Position = UDim2.new(0, 0, 0.5, 0)
+Check_5.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_5.Font = Enum.Font.Arial
+Check_5.Text = ""
+Check_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_5.TextSize = 17.000
+Check_5.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_10.Rotation = 90
+ThemeButtonGradient_10.Name = "ThemeButtonGradient"
+ThemeButtonGradient_10.Parent = Check_5
+
+Main_5.Name = "Main"
+Main_5.Parent = Check_5
+Main_5.BackgroundTransparency = 1.000
+Main_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_5.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_5.Parent = Check_5
+
+CheckImage_5.Name = "CheckImage"
+CheckImage_5.Parent = Check_5
+CheckImage_5.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_5.BackgroundTransparency = 1.000
+CheckImage_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_5.BorderSizePixel = 0
+CheckImage_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_5.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_5.ZIndex = 0
+CheckImage_5.Image = "rbxassetid://5226924982"
+CheckImage_5.ScaleType = Enum.ScaleType.Crop
+
+UICorner_7.Parent = Check_5
+
+Owner.Name = "Owner"
+Owner.Parent = List
+Owner.AnchorPoint = Vector2.new(0.5, 0)
+Owner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Owner.BackgroundTransparency = 1.000
+Owner.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Owner.BorderSizePixel = 0
+Owner.LayoutOrder = 7
+Owner.Position = UDim2.new(0.5, 0, 0, 0)
+Owner.Size = UDim2.new(1, 0, 0, 40)
+Owner.ZIndex = 2
+Owner.Font = Enum.Font.Arial
+Owner.Text = ""
+Owner.TextColor3 = Color3.fromRGB(255, 255, 255)
+Owner.TextSize = 17.000
+Owner.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_11.Rotation = 90
+ThemeButtonGradient_11.Name = "ThemeButtonGradient"
+ThemeButtonGradient_11.Parent = Owner
+
+TextLabel_8.Parent = Owner
+TextLabel_8.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_8.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_8.ZIndex = 0
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Owner Online"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_6.Name = "Check"
+Check_6.Parent = Owner
+Check_6.AnchorPoint = Vector2.new(0, 0.5)
+Check_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_6.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_6.BorderSizePixel = 0
+Check_6.LayoutOrder = 2
+Check_6.Position = UDim2.new(0, 0, 0.5, 0)
+Check_6.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_6.Font = Enum.Font.Arial
+Check_6.Text = ""
+Check_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_6.TextSize = 17.000
+Check_6.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_12.Rotation = 90
+ThemeButtonGradient_12.Name = "ThemeButtonGradient"
+ThemeButtonGradient_12.Parent = Check_6
+
+Main_6.Name = "Main"
+Main_6.Parent = Check_6
+Main_6.BackgroundTransparency = 1.000
+Main_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_6.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_6.Parent = Check_6
+
+CheckImage_6.Name = "CheckImage"
+CheckImage_6.Parent = Check_6
+CheckImage_6.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_6.BackgroundTransparency = 1.000
+CheckImage_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_6.BorderSizePixel = 0
+CheckImage_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_6.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_6.ZIndex = 0
+CheckImage_6.Image = "rbxassetid://5226924982"
+CheckImage_6.ScaleType = Enum.ScaleType.Crop
+
+UICorner_8.Parent = Check_6
+
+Admin.Name = "Admin"
+Admin.Parent = List
+Admin.AnchorPoint = Vector2.new(0.5, 0)
+Admin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Admin.BackgroundTransparency = 1.000
+Admin.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Admin.BorderSizePixel = 0
+Admin.LayoutOrder = 8
+Admin.Position = UDim2.new(0.5, 0, 0, 0)
+Admin.Size = UDim2.new(1, 0, 0, 40)
+Admin.ZIndex = 2
+Admin.Font = Enum.Font.Arial
+Admin.Text = ""
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextSize = 17.000
+Admin.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_13.Rotation = 90
+ThemeButtonGradient_13.Name = "ThemeButtonGradient"
+ThemeButtonGradient_13.Parent = Admin
+
+TextLabel_9.Parent = Admin
+TextLabel_9.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_9.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_9.ZIndex = 0
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Free Admin"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_7.Name = "Check"
+Check_7.Parent = Admin
+Check_7.AnchorPoint = Vector2.new(0, 0.5)
+Check_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_7.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_7.BorderSizePixel = 0
+Check_7.LayoutOrder = 2
+Check_7.Position = UDim2.new(0, 0, 0.5, 0)
+Check_7.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_7.Font = Enum.Font.Arial
+Check_7.Text = ""
+Check_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_7.TextSize = 17.000
+Check_7.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_14.Rotation = 90
+ThemeButtonGradient_14.Name = "ThemeButtonGradient"
+ThemeButtonGradient_14.Parent = Check_7
+
+Main_7.Name = "Main"
+Main_7.Parent = Check_7
+Main_7.BackgroundTransparency = 1.000
+Main_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_7.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_7.Parent = Check_7
+
+CheckImage_7.Name = "CheckImage"
+CheckImage_7.Parent = Check_7
+CheckImage_7.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_7.BackgroundTransparency = 1.000
+CheckImage_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_7.BorderSizePixel = 0
+CheckImage_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_7.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_7.ZIndex = 0
+CheckImage_7.Image = "rbxassetid://5226924982"
+CheckImage_7.ScaleType = Enum.ScaleType.Crop
+
+UICorner_9.Parent = Check_7
+
+JoinFromIDBox.Name = "JoinFromIDBox"
+JoinFromIDBox.Parent = List
+JoinFromIDBox.AnchorPoint = Vector2.new(1, 0.5)
+JoinFromIDBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JoinFromIDBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+JoinFromIDBox.BorderSizePixel = 0
+JoinFromIDBox.LayoutOrder = 11
+JoinFromIDBox.Position = UDim2.new(0.949999988, 0, 0.5, 0)
+JoinFromIDBox.Size = UDim2.new(0.899999976, 0, 0.0299999993, 0)
+
+ThemeStandardTextboxGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 0, 125)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(21, 0, 61))}
+ThemeStandardTextboxGradient.Rotation = -90
+ThemeStandardTextboxGradient.Name = "ThemeStandardTextboxGradient"
+ThemeStandardTextboxGradient.Parent = JoinFromIDBox
+
+TextBox.Parent = JoinFromIDBox
+TextBox.AnchorPoint = Vector2.new(0, 0.5)
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.Position = UDim2.new(0, 0, 0.5, 0)
+TextBox.Size = UDim2.new(1, 0, 0.519999981, 0)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.GothamMedium
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.PlaceholderText = "Type Place Name Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Right
+
+UICorner_10.Parent = JoinFromIDBox
+
+JoinFromIDButton.Name = "JoinFromIDButton"
+JoinFromIDButton.Parent = List
+JoinFromIDButton.AnchorPoint = Vector2.new(1, 0.5)
+JoinFromIDButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JoinFromIDButton.BorderColor3 = Color3.fromRGB(128, 128, 128)
+JoinFromIDButton.BorderSizePixel = 0
+JoinFromIDButton.LayoutOrder = 12
+JoinFromIDButton.Position = UDim2.new(1, 0, 0.5, 0)
+JoinFromIDButton.Size = UDim2.new(0.150000006, 0, 1, 0)
+JoinFromIDButton.ZIndex = 2
+JoinFromIDButton.AutoButtonColor = false
+JoinFromIDButton.Text = ""
+
+ThemeButtonGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_15.Rotation = 90
+ThemeButtonGradient_15.Name = "ThemeButtonGradient"
+ThemeButtonGradient_15.Parent = JoinFromIDButton
+
+Main_8.Name = "Main"
+Main_8.Parent = JoinFromIDButton
+Main_8.BackgroundTransparency = 1.000
+Main_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_8.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_8.Parent = JoinFromIDButton
+
+ImageLabel.Parent = JoinFromIDButton
+ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+ImageLabel.Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
+ImageLabel.Image = "rbxassetid://8953781703"
+
+UICorner_11.Parent = JoinFromIDButton
+
+TextLabel_10.Parent = List
+TextLabel_10.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.LayoutOrder = 10
+TextLabel_10.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_10.Size = UDim2.new(1, -65, 0, 30)
+TextLabel_10.ZIndex = 0
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Search Games"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Simon.Name = "Simon"
+Simon.Parent = List
+Simon.AnchorPoint = Vector2.new(0.5, 0)
+Simon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Simon.BackgroundTransparency = 1.000
+Simon.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Simon.BorderSizePixel = 0
+Simon.LayoutOrder = 9
+Simon.Position = UDim2.new(0.5, 0, 0, 0)
+Simon.Size = UDim2.new(1, 0, 0, 40)
+Simon.ZIndex = 2
+Simon.Font = Enum.Font.Arial
+Simon.Text = ""
+Simon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Simon.TextSize = 17.000
+Simon.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_16.Rotation = 90
+ThemeButtonGradient_16.Name = "ThemeButtonGradient"
+ThemeButtonGradient_16.Parent = Simon
+
+TextLabel_11.Parent = Simon
+TextLabel_11.AnchorPoint = Vector2.new(1, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(1, -15, 0.469999999, 0)
+TextLabel_11.Size = UDim2.new(1, -65, 1, 0)
+TextLabel_11.ZIndex = 0
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "Simon Says"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 20.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+Check_8.Name = "Check"
+Check_8.Parent = Simon
+Check_8.AnchorPoint = Vector2.new(0, 0.5)
+Check_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check_8.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Check_8.BorderSizePixel = 0
+Check_8.LayoutOrder = 2
+Check_8.Position = UDim2.new(0, 0, 0.5, 0)
+Check_8.Size = UDim2.new(1, 0, 0.980000019, 0)
+Check_8.Font = Enum.Font.Arial
+Check_8.Text = ""
+Check_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check_8.TextSize = 17.000
+Check_8.TextXAlignment = Enum.TextXAlignment.Left
+
+ThemeButtonGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(82, 0, 224)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(112, 51, 217)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(73, 0, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 0, 159))}
+ThemeButtonGradient_17.Rotation = 90
+ThemeButtonGradient_17.Name = "ThemeButtonGradient"
+ThemeButtonGradient_17.Parent = Check_8
+
+Main_9.Name = "Main"
+Main_9.Parent = Check_8
+Main_9.BackgroundTransparency = 1.000
+Main_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_9.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_9.Parent = Check_8
+
+CheckImage_8.Name = "CheckImage"
+CheckImage_8.Parent = Check_8
+CheckImage_8.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckImage_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckImage_8.BackgroundTransparency = 1.000
+CheckImage_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CheckImage_8.BorderSizePixel = 0
+CheckImage_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+CheckImage_8.Size = UDim2.new(0.649999976, 0, 0.649999976, 0)
+CheckImage_8.ZIndex = 0
+CheckImage_8.Image = "rbxassetid://5226924982"
+CheckImage_8.ScaleType = Enum.ScaleType.Crop
+
+UICorner_10.Parent = Check_8
+
+local blacklistedKeywords = {}
+local blacklistedDates = {}
+
+local function addItems(TABLE, items)
+	for _, item in ipairs(items) do
+		table.insert(TABLE, item)
+	end
+end
+
+local function removeItems(TABLE, items)
+	for _, item in ipairs(items) do
+		for i = #TABLE, 1, -1 do
+			if TABLE[i] == item then
+				table.remove(TABLE, i)
+			end
+		end
+	end
+end
+
+local function setTheme()
+	local themeColor
+	for _, v in pairs(gamesPageFrame.Sort:GetDescendants()) do
+		if v.Name == "ThemeButtonGradient" then
+			themeColor = v.Color
+			return
+		end
+	end
+	
+	if themeColor == nil then
+		warn("Theme Not found. Sticking with the default!")
+	end
+
+	for _, v in pairs(Categories:GetDescendants()) do
+		if v.Name == "ThemeButtonGradient" then
+			v.Color = themeColor
+		end
+	end
+end
+
+
+local function filterGames()
+	local gamesList = gamesPageFrame.List
+	for _, v in pairs(gamesList:GetChildren()) do
+		if v:IsA("TextButton") then
+			local title = string.lower(v.BottomPart.NameLabel.Text)
+			local dateString = v.HoverExpansion.TimeLabel.Text
+			for _, word in pairs(blacklistedKeywords) do
+				local lowerCaseWord = string.lower(word)
+				if string.find(title, lowerCaseWord) then
+					v.Visible = false
+				end
+			end
+			for _, date in pairs(blacklistedDates) do
+				if string.find(dateString, date) then
+					v.Visible = false
+				end
+			end
+		end
+	end
+end
+
+local function unfilterGames()
+	local gamesList = gamesPageFrame.List
+	for _, v in pairs(gamesList:GetChildren()) do
+		if v:IsA("TextButton") then
+			if v.Visible == false then
+				local title = string.lower(v.BottomPart.NameLabel.Text)
+				local dateString = v.HoverExpansion.TimeLabel.Text
+				for _, word in pairs(blacklistedKeywords) do
+					local lowerCaseWord = string.lower(word)
+					
+					if string.find(title, lowerCaseWord) then return end
+					
+					v.Visible = true
+				end
+				for _, date in pairs(blacklistedDates) do
+					
+					if string.find(dateString, date) then return end
+					
+					v.Visible = true
+				end
+			end
+		end
+	end
+end
+
+local function changedCheckBox(box)
+	local boxName = box.Parent.Name
+	if box.CheckImage.Image == "rbxassetid://5226924982" then -- TICK Icon
+		box.CheckImage.Image = "rbxassetid://10152135063"
+		-- DATES
+		if boxName == "2015" then
+			addItems(blacklistedDates, {"Mid 2015", "Late 2015", "Early 2015"})
+		elseif boxName == "2014-2013" then
+			addItems(blacklistedDates, {"Mid 2014", "Late 2014", "Early 2014", "Mid 2013", "Late 2013", "Early 2013"})
+		elseif boxName == "2012-2011" then
+			addItems(blacklistedDates, {"Mid 2012", "Late 2012", "Early 2012", "Mid 2011", "Late 2011", "Early 2011"})
+		elseif boxName == "2010-2009" then
+			addItems(blacklistedDates, {"Late 2009", "Late 2010", "Early 2009"})
+
+			-- KEYWORDS
+		elseif boxName == "Hangout" then
+			addItems(blacklistedKeywords, {"hangout", "chill", "tv", "movie"})
+		elseif boxName == "Owner" then
+			addItems(blacklistedKeywords, {"owner", "online"})
+		elseif boxName == "Admin" then
+			addItems(blacklistedKeywords, {"admin", "free", "mod"})
+		elseif boxName == "Simon" then
+			addItems(blacklistedKeywords, {"simon", "says"})
+		else
+			return
+		end
+
+		filterGames()
+		print(blacklistedDates)
+		print(blacklistedKeywords)
+	else
+		box.CheckImage.Image = "rbxassetid://5226924982"
+
+		-- DATES
+		if boxName == "2015" then
+			removeItems(blacklistedDates, {"Mid 2015", "Late 2015", "Early 2015"})
+		elseif boxName == "2014-2013" then
+			removeItems(blacklistedDates, {"Mid 2014", "Late 2014", "Early 2014", "Mid 2013", "Late 2013", "Early 2013"})
+		elseif boxName == "2012-2011" then
+			removeItems(blacklistedDates, {"Mid 2012", "Late 2012", "Early 2012", "Mid 2011", "Late 2011", "Early 2011"})
+		elseif boxName == "2010-2009" then
+			removeItems(blacklistedDates, {"Late 2009", "Late 2010", "Early 2009"})
+
+			-- KEYWORDS
+		elseif boxName == "Hangout" then
+			removeItems(blacklistedKeywords, {"hangout", "chill", "tv", "movie"})
+		elseif boxName == "Owner" then
+			removeItems(blacklistedKeywords, {"owner", "online"})
+		elseif boxName == "Admin" then
+			removeItems(blacklistedKeywords, {"admin", "free", "mod"})
+		elseif boxName == "Simon" then
+			removeItems(blacklistedKeywords, {"simon", "says"})
+		else
+			return
+		end
+		
+		unfilterGames()
+		print(blacklistedDates)
+		print(blacklistedKeywords)
+	end
+end
+
+gamesPageFrame.List.ChildAdded:Connect(function(child)
+	if child:IsA("TextBox") then
+		filterGames()
+	end
+end)
+
+for _, v in pairs(List:GetDescendants()) do
+	if v:IsA("TextButton") then
+		if v.Name == "Check" then
+			v.MouseButton1Click:Connect(function()
+				changedCheckBox(v)
+			end)
+		end
+	end
+end
+
+setTheme()
