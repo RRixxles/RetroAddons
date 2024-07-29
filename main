@@ -1,6 +1,10 @@
 -- RetroAddons, Created by Rixxles 2024
 -- Instances:
 
+repeat wait() until game.Players.LocalPlayer.PlayerGui.MenuGui.GamesPageFrame
+
+task.wait(2)
+
 local Categories = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local BackgroundStandardGradient = Instance.new("UIGradient")
